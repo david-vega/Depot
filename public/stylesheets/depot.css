@@ -57,6 +57,7 @@
 
 #product_list .list_line_even {
   background-color: #F8F8F8;
+  font-weight: bold;
 }
 
 #product_list .list_line_odd {
