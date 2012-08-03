@@ -24,9 +24,6 @@ class ProductsControllerTest < ActionController::TestCase
     assert_difference('Product.count') do
       post :create, :product => @update
     end
-
-  end
-
     assert_redirected_to product_path(assigns(:product))
   end
 
