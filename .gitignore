@@ -16,4 +16,4 @@
 
 #ignore RubyMine idea folder
 
-/.idea/*.*
+.idea
