@@ -13,5 +13,5 @@ class LineItem < ActiveRecord::Base
   belongs_to :product
   belongs_to :cart
   accepts_nested_attributes_for :product
-  attr_accessible :cart_id, :product_id, :product_attributes, :product
+  attr_accessible :cart_id, :product_id, :product_attributes, :product, :quantity
 end
