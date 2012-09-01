@@ -12,7 +12,7 @@
 #store h1 {
         font: 150% sans-serif;
         color: #226;
-        border-bottom: 3px dotted #77d;
+        border-bottom: 3px dashed #77d;
 }
 
 /* Styles for products/index */
@@ -109,4 +109,4 @@
   color: #44a;
   font-weight: bold;
   margin-right: 2em;
-} 
+}
